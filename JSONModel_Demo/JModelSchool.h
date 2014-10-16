@@ -14,7 +14,7 @@
 @property (nonatomic, strong) NSString* ID;
 @property (nonatomic, strong) NSString* Name;
 @property (nonatomic, strong) NSString* Address;
-//@property (nonatomic, strong) NSString* Province;     The additional property of entity will be caused serialization failed.
+@property (nonatomic, strong) NSString* Province;     //The additional property of entity will be caused serialization failed.
 @property (nonatomic, strong) JModelTeacher<Optional>* Teacher;
 
 @end
