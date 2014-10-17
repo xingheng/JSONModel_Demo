@@ -18,6 +18,7 @@
 		681A0AA419EFCAFF00D77FB0 /* JModelSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A0AA319EFCAFF00D77FB0 /* JModelSchool.m */; };
 		681A0AA719EFCB6300D77FB0 /* JModelTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 681A0AA619EFCB6300D77FB0 /* JModelTeacher.m */; };
 		68364F0319EFDFFA00CB84CA /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68364F0219EFDFFA00CB84CA /* ReadMe.txt */; };
+		68364F0C19F0BB5700CB84CA /* JModelSchool+ExpandProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 68364F0B19F0BB5700CB84CA /* JModelSchool+ExpandProperty.m */; };
 		BD224A261C702304E940A51B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D67920656BC004DBB548D3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		681A0AA519EFCB6300D77FB0 /* JModelTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JModelTeacher.h; sourceTree = "<group>"; };
 		681A0AA619EFCB6300D77FB0 /* JModelTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JModelTeacher.m; sourceTree = "<group>"; };
 		68364F0219EFDFFA00CB84CA /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		68364F0A19F0BB5700CB84CA /* JModelSchool+ExpandProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JModelSchool+ExpandProperty.h"; sourceTree = "<group>"; };
+		68364F0B19F0BB5700CB84CA /* JModelSchool+ExpandProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JModelSchool+ExpandProperty.m"; sourceTree = "<group>"; };
 		A4D67920656BC004DBB548D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B460EDF649BA9B7251D87ABC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BBDFB1804EDA458FA37F38C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 			children = (
 				681A0AA219EFCAFF00D77FB0 /* JModelSchool.h */,
 				681A0AA319EFCAFF00D77FB0 /* JModelSchool.m */,
+				68364F0A19F0BB5700CB84CA /* JModelSchool+ExpandProperty.h */,
+				68364F0B19F0BB5700CB84CA /* JModelSchool+ExpandProperty.m */,
 				681A0AA519EFCB6300D77FB0 /* JModelTeacher.h */,
 				681A0AA619EFCB6300D77FB0 /* JModelTeacher.m */,
 			);
@@ -317,6 +322,7 @@
 				681A0A7D19EFC87600D77FB0 /* AppDelegate.m in Sources */,
 				681A0AA419EFCAFF00D77FB0 /* JModelSchool.m in Sources */,
 				681A0AA719EFCB6300D77FB0 /* JModelTeacher.m in Sources */,
+				68364F0C19F0BB5700CB84CA /* JModelSchool+ExpandProperty.m in Sources */,
 				681A0A7A19EFC87600D77FB0 /* main.m in Sources */,
 				681A0AA019EFCA0F00D77FB0 /* GlobalTestEntry.m in Sources */,
 			);

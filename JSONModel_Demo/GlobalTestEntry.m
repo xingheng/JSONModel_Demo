@@ -11,6 +11,8 @@
 #import "JModelTeacher.h"
 #import <JSONModel/JSONModel.h>
 
+#import "JModelSchool+ExpandProperty.h"
+
 @implementation GlobalTestEntry
 
 + (void)testEntry
@@ -30,8 +32,21 @@
                                  @"Address": @"beijing, china",
                                  @"Teacher": teacherDict};
     
+    [self validateExpandCategory];
     [self serializeTeacher:teacherDict];
     [self serializeSchool:schoolDict];
+}
+
++ (void)validateExpandCategory
+{
+#if EXPAND_PROPERTY
+    JModelSchool *newSchool = [[JModelSchool alloc] init];
+    
+    NSLog(@"desc: %@", newSchool.DescNotes);
+    newSchool.DescNotes = @"new descriptions";
+    [newSchool setDescNotes:@"new desc"];
+    NSLog(@"desc: %@", newSchool.DescNotes);
+#endif
 }
 
 + (void)serializeSchool:(NSDictionary *)dict
