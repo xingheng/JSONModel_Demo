@@ -17,11 +17,21 @@
 
 + (void)testEntry
 {
+//    NSDictionary *teacherDict = @{@"ID": @"111",
+//                                  @"Name": @"teacherName1",
+//                                  @"Address": @"teacher's home address",
+//                                  @"Subject": @"IT",
+//                                  @"Note": @"reserved notes",
+//                                  @"Interests": [NSNull null]};
+    
     NSDictionary *teacherDict = @{@"ID": @"111",
                                   @"Name": @"teacherName1",
                                   @"Address": @"teacher's home address",
                                   @"Subject": @"IT",
-                                  @"Note": @"reserved notes"};
+                                  @"Note": @"reserved notes",
+                                  @"Interests": @{@"InterestID": @1111,
+                                                  @"InterestName": @"Naruto",
+                                                  @"Category": @"Anime"}};
     
 //    NSDictionary *schoolDict = @{@"ID": @"001",
 //                                 @"Name": @"schoolName1",

@@ -11,3 +11,8 @@
 @implementation JModelTeacher
 
 @end
+
+
+@implementation JModelInterest
+
+@end
